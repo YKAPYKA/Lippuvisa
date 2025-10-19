@@ -1,0 +1,38 @@
+.kontti {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .lippu {
+    text-align: center;
+  }
+
+  .lippu img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .otsikko {
+    color: white;
+    text-shadow: 5px 5px 5px black; 
+    transition: color 0.9s ease;
+  }
+
+  .otsikko:hover {
+    color: red;
+} 
+/* Otsikkoon lisätty hiirellä hoveroinnilla värin muuttuminen*/
+
+  #ball {
+    position: absolute;
+    bottom: 20px;
+    left: 0px; 
+    width: 150px;
+    height: 150px;
+  }
+
+  .lippu img:hover {
+    transform: scale(1.1); 
+  }
+/* Lisäsin myös lippuihin hoveroinnilla pienen kasvamisen */
